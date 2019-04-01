@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<div id="bgDiv" >
+
+<div id="joinbutton"  style="font-family:Helvetica, arial; display: inline-block; text-align: center;">
+<a href="https://pesgroup.ticketleap.com/pes-league-no-limit/" style="background-color:#e5422c;font-size:42px;border-radius: 3px;-moz-border-radius:3px;-webkit-border-radius:3px;box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);display: inline-block;margin:0;text-align:center;text-decoration:none;font-weight:bold;color:#FFFFFF;letter-spacing: .07em;padding:45px 45px;font-family: arial,sans-serif !important;" target="_top">JOIN</a><br/>
+<div style="font-family:Helvetica, arial;font-style:italic;letter-spacing: 0.05em;font-size: 12px;margin-top:12px;color:rgba(0, 0, 0, 0.5);"></div>
+</div>
+</body>
+<style>
+#bgDiv{
+position: absolute; top: 0; left: 0; height: 100%; width: 100%;
+background:url("bg.jpg")no-repeat center center fixed;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#joinbutton{
+position:fixed;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em; 
+    margin-left: -15em; 
+}
+#joinbutton a{
+   width:80%;
+   height:50px
+}
+</style>
+</html>
